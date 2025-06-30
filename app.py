@@ -65,7 +65,7 @@ EMOJI_MAP = {
 
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('rps_best.keras'))
+    model = tf.keras.models.load_model('rps_best.keras')
     return model
 
 def preprocess_image(image):
